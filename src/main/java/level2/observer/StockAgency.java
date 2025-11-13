@@ -3,12 +3,11 @@ package level2.observer;
 import level2.publisher.Broker;
 
 public class StockAgency implements StockObserver {
-    private String name;
-    private Broker broker;
+    private final String name;
 
-    public StockAgency(Broker broker, String name){
+
+    public StockAgency(String name){
         this.name = name;
-        this.broker = broker;
     }
 
     @Override
