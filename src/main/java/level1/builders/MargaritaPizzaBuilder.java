@@ -1,8 +1,12 @@
+package level1.builders;
+
+import level1.model.Pizza;
+
 public class MargaritaPizzaBuilder implements PizzaBuilder {
 
     private Pizza margarita;
 
-    public MargaritaPizzaBuilder(Pizza margarita) {
+    public MargaritaPizzaBuilder() {
         this.reset();
     }
 

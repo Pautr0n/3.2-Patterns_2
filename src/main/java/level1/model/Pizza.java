@@ -1,3 +1,7 @@
+package level1.model;
+
+import java.util.Arrays;
+
 public class Pizza {
 
     private String size;
@@ -16,4 +20,12 @@ public class Pizza {
         this.ingredients = ingredients;
     }
 
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "size='" + size + '\'' +
+                ", dough='" + dough + '\'' +
+                ", ingredients=" + Arrays.toString(ingredients) +
+                '}';
+    }
 }
