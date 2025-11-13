@@ -1,6 +1,6 @@
-package level3;
+package level3.payment;
 
-public class BankDebitPayment implements PaymentMethod{
+public class BankDebitPayment implements PaymentMethod {
     @Override
     public void pay(double amount) throws Exception {
         System.out.println("Paid " + amount + "€ via Bank debit.");

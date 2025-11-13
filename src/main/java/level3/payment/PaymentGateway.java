@@ -1,7 +1,6 @@
-package level3;
+package level3.payment;
 
-import javax.security.auth.callback.Callback;
-import java.util.Optional;
+import level3.callback.PaymentCallback;
 
 public class PaymentGateway{
 
